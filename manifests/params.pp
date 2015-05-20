@@ -12,6 +12,7 @@ class xdm::params {
       case $::operatingsystemmajrelease {
         '14.04': {
           $xdm_package = 'xdm'
+          $xdm_config_file = '/etc/X11/xdm/xdm-config'
         }
         
         default: {

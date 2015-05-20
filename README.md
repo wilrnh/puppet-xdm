@@ -54,6 +54,8 @@ include ::xdm
 
 `service_ensure`: Passed directly on to Puppet's `service` type `ensure` parameter. Defaults to `running`.
 
+`xdm_config_append`: Array of lines to append to xdm-config file. Defaults to empty array.
+
 ## Limitations
 
 This module is currently only tested on Ubuntu 14.04 (Trusty.)
