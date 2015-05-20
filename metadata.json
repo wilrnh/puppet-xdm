@@ -1,6 +1,6 @@
 {
   "name": "wilrnh-xdm",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "wilrnh",
   "summary": "Puppet module to manage the installation and configuration of XDM - the X Display Manager",
   "license": "Apache-2.0",
@@ -16,6 +16,6 @@
     }
   ],
   "dependencies": [
-    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+    {"name":"puppetlabs-stdlib","version_requirement":">= 4.0.0"}
   ]
 }
